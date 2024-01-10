@@ -12,3 +12,17 @@ body {
   background-size: cover;
   background-color: hsl( 0, 100%, 74% );
 }
+
+@media only screen and (min-width: 800px) {
+  body {
+    background-image: url(./assets/bg-intro-desktop.png);
+  }
+}
+
+#button {
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+#form {
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}

@@ -5,17 +5,17 @@ function App() {
 
   return (
 
-    <main>
+    <main className="font-poppins py-[50px] md:py-0 md:h-screen flex items-center justify-center">
 
-      <div>
+      <div className="max-w-[80%] mx-auto md:flex md:gap-[70px] md:items-center md:justify-center">
 
-        <section>
+        <section className="md:w-[800px]">
 
           <Header />
 
         </section>
 
-        <section>
+        <section className="md:w-[650px]">
 
           <Form />
 
